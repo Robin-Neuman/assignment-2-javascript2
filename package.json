@@ -1,0 +1,25 @@
+{
+  "name": "assignment-2-javascript2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ruby": "^0.6.1",
+    "sass": "^1.23.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robin-Neuman/assignment-2-javascript2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robin-Neuman/assignment-2-javascript2/issues"
+  },
+  "homepage": "https://github.com/Robin-Neuman/assignment-2-javascript2#readme"
+}

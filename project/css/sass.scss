@@ -1,0 +1,43 @@
+$primary: rgb(62, 110, 199);
+$deepblue: #284972;
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+table{
+    margin: 40px 0px 0px 0px;
+    th {
+        width: 350px;
+        h2 {
+            font-size: 2.5em;
+            color: $primary;
+            button{
+                color: $white;
+                margin-left: 10px;
+                background-color: #284972;
+                border: 1px solid #768BA5;
+                font-size: 0.6em;
+            }
+        }
+    }
+}
+
+.border-bottom{
+    width: 1000px;
+    margin-left: 40px;
+}
+
+#header{
+    padding: 0px 0px 20px 20px;
+    background-color: $deepblue;
+    color: $white;
+}
+
+#sideImage{
+    background-image: linear-gradient( to right, rgb(255, 255, 255), rgba(219, 219, 219, 0.74)), url("/project/img/programming.jpg");
+    position: fixed;
+    right: 0px;
+    height: 10000px;
+    width: 1200px;
+    z-index: -1;
+    
+}
