@@ -13,111 +13,236 @@
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/project/css/sass.css">
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
 </head>
 
-<body>    
+<body>
     <div id="header">
-        <img src="" alt="">
-        <h1>Robin Neuman</h1>
-        <h4 id="description">Aspiring fullstack developer looking to set his mark on the industry.</h4>
-        <h4 id="email">robinneuman@hotmail.com</h4>
-        <h4 id="phone">070 718 15-01</h4>
+        <img class="profileImage" src="/project/img/20190315_232317.jpg" alt="">
+        <div id="headerText">
+            <h1>Robin Neuman</h1>
+            <p id="description">Aspiring fullstack developer aiming to set his mark on the industry.</p>
+            <div id="headerInfo">
+                <h5 id="email">robinneuman@hotmail.com</h5>
+                <h5 id="phone">070 718 15-01</h5>
+            </div>
+        </div>
+
     </div>
     <div id="sideImage"></div>
-    <div id="education" class="border-bottom">
-        <table>
-            <tr>
-                <th>
-                    <h2>Education<button>view</button></h2>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <h4>Date</h4>
-                </th>
-                <th>
-                    <h4>Education 1</h4>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <h4>Date</h4>
-                </th>
-                <th>
-                    <h4>Education 2</h4>
-                </th>
-            </tr>
-        </table>
-    </div>
-
-    <div id="experience" class="border-bottom">
-        <table>
-            <tr>
-                <th>
-                    <h2>Experience</h2>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <h4>Date</h4>
-                </th>
-                <th>
-                    <h4>Company 1</h4>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <h4>Date</h4>
-                </th>
-                <th>
-                    <h4>Company 2</h4>
-                </th>
-            </tr>
-        </table>
-    </div>
-
-    <div id="skillsAndPersonality" class="border-bottom">
-        <table>
-            <tr>
-                <th>
-                    <h2>Skills</h2>
-                </th>
-                <th>
-                    <h2>Personality</h2>
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    <h4>Skill 1</h4>
-                </th>
-                <th>
-                    <h4>Trait 1</h4>
-                </th>
-            </tr>
-        </table>
-    </div>
-
-    <div id="softwareSkills" class="border-bottom">
+    <div id="personSkillset">
+        <div id="education" class="border-bottom">
             <table>
                 <tr>
                     <th>
-                        <h2  class="">Software Skills</h2>
-                    </th>
-                    <th>
-                        <h2>Languages</h2>
+                        <button>view</button>
+                        <h3>Education</h3>
                     </th>
                 </tr>
                 <tr>
                     <th>
-                        <h4>Skill 1</h4>
+                        <p>2019 - 2019</p>
                     </th>
                     <th>
-                        <h4>Trait 1</h4>
+                        <p>Education</p>
                     </th>
+                </tr>
+                <tr>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <p>Description</p>
+                        </td>
+                    </tr>   
+                <tr>
+                    <th>
+                        <p>Date</p>
+                    </th>
+                    <th>
+                        <p>Education</p>
+                    </th>
+                    <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                <p>Description</p>
+                            </td>
+                        </tr>   
                 </tr>
             </table>
         </div>
+
+        <div id="experience" class="border-bottom">
+                <table>
+                        <tr>
+                            <th>
+                                <button>view</button>
+                                <h3>Experience</h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <p>2019 - 2019</p>
+                            </th>
+                            <th>
+                                <p>Company 1</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                            </td>
+                            <td>
+                                <p>Description</p>
+                            </td>
+                        </tr>                        
+                        <tr>
+                            <th>
+                                <p>Date</p>
+                            </th>
+                            <th>
+                                <p>Company 2</p>
+                            </th>
+                        </tr>
+                        <tr>
+                                <td>
+                                    
+                                </td>
+                                <td>
+                                    <p>Description</p>
+                                </td>
+                            </tr>   
+                    </table>
+        </div>
+
+        <div id="skills" class="border-bottom">
+            <table>
+                <tr>
+                    <th>
+                        <button>view</button>
+                        <h3>Skills</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Skill 1</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="personality" class="border-bottom">
+            <table>
+                <tr>
+                    <th>
+                        <button>view</button>
+                        <h3>Personality</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Trait 1</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="softwareSkills" class="border-bottom">
+            <table>
+                <tr>
+                    <th>
+                        <button>view</button>
+                        <h3>Software Skills</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Skill 1</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    
+
+    <div id="languages" class="border-bottom">
+            <table>
+                <tr>
+                    <th>
+                        <button>view</button>
+                        <h3>Languages</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Trait 1</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="projects">
+
+        <div id="project1" class="project">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="/project/img/programming.jpg" class="card-img" alt="project image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">CRM-system</h5>
+                            <a href="https://github.com/xavizus/assignment-1-for-javascript2/tree/master" class="card-title">Link to project</a>
+                            <p class="card-text">This was a school project where me and my group built a CRM-system following a basic scrum-routine.
+                                My card in the project was making a reminder function which alerted the user when the date picked for the reminder
+                                matched the current date, using a mock up API for data storage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="project2" class="project">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="/project/img/programming.jpg" class="card-img" alt="project image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz</h5>
+                            <a href="https://github.com/Robin-Neuman/uppgift-js-1" class="card-title">Link to Github</a>
+                            <p class="card-text">A simple quiz made for my first course in javascript. I made use of JSON files as well as functions
+                                allowing the player to choose different options which could all be correct as well as incorrect, giving corresponding points to the answer.                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="project3" class="project">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="/project/img/programming.jpg" class="card-img" alt="project image">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Title</h5>
+                            <a href="https://github.com/Robin-Neuman/Sandra-Website" class="card-title">Link to Github</a>
+                            <p class="card-text">A very basic website made for my girlfriend's fanfiction. Work is still in progress with
+                                future plans for a forum, a page for upploading content and an admin system allowing upploading of new chapters.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
