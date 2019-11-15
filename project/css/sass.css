@@ -10785,10 +10785,11 @@ table th p, table td p {
 
 .card-img {
   height: 250px;
+  max-width: 600px;
 }
 
 .card {
-  max-width: 800px;
+  max-width: 1200px;
   margin-right: 100px;
 }
 

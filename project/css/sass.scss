@@ -153,9 +153,10 @@ table{
 
 .card-img{
     height: 250px;
+    max-width: 600px;
 }
 .card{
-    max-width: 800px;
+    max-width: 1200px;
     margin-right: 100px;
 }
 @media screen and (max-width: 1200px) {
