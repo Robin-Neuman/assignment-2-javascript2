@@ -13,6 +13,10 @@
   color: black;
   text-decoration: underline;
 }
+#language #english:hover {
+  color: white;
+  text-decoration: underline;
+}
 @media screen and (max-width: 1200px) {
   #sideImage {
     animation: 0.5s ease-out 0s 1 slideInFromRight, 0.5s linear 1 opacityFromRight;
