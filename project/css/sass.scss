@@ -81,18 +81,18 @@ $border: #768BA5;
     margin-top: 50px;
     display: flex;
     margin-left: -80px;
-.viewBtn{
-    height: 2.5em;
-    &:hover{
+    .viewBtn{
+        height: 2.5em;
+        &:hover{
         
-    @include btnColorHover();
+        @include btnColorHover();
+        }
+        @include btnColor();
     }
-    @include btnColor();
-}
-h3 {
-    color: $primary;
-    margin-top: 10px;
-}
+    h3 {
+        color: $primary;
+        margin-top: 10px;
+    }
 }
 table{
     margin: 60px 0px 0px 0px;
@@ -101,6 +101,20 @@ table{
         p{
             font-size: 1.3em;
         }
+    }
+}
+#affectAll{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: -50px;
+    .allBtn{
+        height: 2.5em;
+        
+        &:hover{
+        
+        @include btnColorHover();
+        }
+        @include btnColor();
     }
 }
 .skillsetDiv{
