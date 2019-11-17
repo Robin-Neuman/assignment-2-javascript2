@@ -10721,12 +10721,42 @@ table th p, table td p {
   font-size: 1.3em;
 }
 
-.border-bottom {
+.skillsetDiv {
   margin-right: 50px;
+  width: 500px;
 }
 
 #personSkillset {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#personSkillset #personSkillsetRow1 {
   margin-left: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#personSkillset #personSkillsetRow2 {
+  margin-left: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #header {
@@ -10784,6 +10814,13 @@ table th p, table td p {
 #projects .project {
   margin-bottom: 50px;
   min-width: 300px;
+  max-width: 1200px;
+  margin-right: 100px;
+}
+
+#projects .project .projImg {
+  height: 250px;
+  max-width: 600px;
 }
 
 .profileImage {
@@ -10794,15 +10831,5 @@ table th p, table td p {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   margin-left: 150px;
-}
-
-.card-img {
-  height: 250px;
-  max-width: 600px;
-}
-
-.card {
-  max-width: 1200px;
-  margin-right: 100px;
 }
 /*# sourceMappingURL=sass.css.map */

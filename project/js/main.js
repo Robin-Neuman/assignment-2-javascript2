@@ -12,9 +12,14 @@ $(document).ready(function(e){
         $("body").find("[lang='en']").addClass("d-none");
         $("body").find("[lang='sv']").removeClass("d-none");
     })
-    $("#english").click("english", function(e){
+    $("#english").click(function(e){
         $("body").find("[lang='sv']").addClass("d-none");
         $("body").find("[lang='en']").removeClass("d-none");
     })    
+
+    $(".projectsNav").click(function(e){
+        let content = document.getElementById("projects");
+        content.scrollIntoView({behavior: "smooth"});
+})
 })
 

@@ -21,8 +21,11 @@
         <img class="profileImage" src="/project/img/20190315_232317.jpg" alt="">
         <div id="headerText">
             <h1>Robin Neuman</h1>
-            <p id="description" lang="en">Aspiring fullstack developer aiming to set his mark on the industry.</p>
-            <p id="description" lang="sv" class="d-none">Blivande fullstack utvecklare som siktar på att sätta sitt spår inom industrin.</p>
+            <p class="description" lang="en">Up-and-coming fullstack developer aiming to set his mark on the industry.
+            </p>
+            <p class="description" lang="sv" class="d-none">Blivande fullstack utvecklare som siktar på att sätta sitt
+                spår
+                inom industrin.</p>
             <div id="headerInfo">
                 <h5 id="email">robinneuman@hotmail.com</h5>
                 <h5 id="phone">070 718 15-01</h5>
@@ -30,204 +33,363 @@
         </div>
     </div>
 
-    <div id="language">
-        <h6>Language/språk:</h6>
-        <a href="#" id="svenska">Svenska</a>
-        <a href="#" id="english">English</a>
-    </div>
+    <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link border-right bg-primary projectsNav" href="#!" lang="en">Projects</a>
+                <a class="nav-item nav-link border-right bg-primary projectsNav d-none" href="#!" lang="sv">Projekt</a>
+                <a class="nav-item nav-link border-right bg-primary" href="https://github.com/Robin-Neuman"
+                    lang="en">Link to Github</a>
+                <a class="nav-item nav-link border-right bg-primary d-none" href="https://github.com/Robin-Neuman"
+                    lang="sv">Länk till Github</a>
+                <a class="nav-item nav-link border-right bg-primary"
+                    href="https://www.linkedin.com/in/robin-neuman-226511a5/" lang="en">Link to Linkedin</a>
+                <a class="nav-item nav-link border-right bg-primary d-none"
+                    href="https://www.linkedin.com/in/robin-neuman-226511a5/" lang="sv">Länk till Linkedin</a>
+            </div>
+            <div id="language" class="nav navbar-nav navbar-right">
+                <h6>Language/språk:</h6>
+                <a class="nav-item nav-link border-right bg-primary" href="#!" id="svenska">Svenska</a>
+                <a class="nav-item nav-link border-right bg-primary" href="#!" id="english">English</a>
+            </div>
+        </div>
+    </nav>
+
+
 
     <div id="sideImage"></div>
     <div id="personSkillset">
-        <div id="education" class="border-bottom">
-            <div class="tableHeader">
-                <button class="viewBtn" lang="en">view</button>
-                <button class="viewBtn d-none" lang="sv">visa</button>
-                <h3 lang="en">Education</h3>
-                <h3 lang="sv" class="d-none">Utbildning</h3>
-            </div>
-            <table>
-
-                <tr class="d-none">
-                    <th>
-                        <p lang="en">2019 - 2019</p>
-                        <p lang="sv" class="d-none">2019 - 2019</p>
-                    </th>
-                    <th>
-                        <p lang="en">Education 1</p>
-                        <p lang="sv" class="d-none">Utbildning 1</p>
-                    </th>
-                </tr>
-                <tr class="d-none">
-                        <td>
-                            
-                        </td>
-                        <td>
-                            <p lang="en">Description</p>
-                            <p lang="sv" class="d-none">Beskrivning</p>
-                        </td>
-                    </tr>   
-                <tr class="d-none">
-                    <th>
-                        <p lang="en">Date</p>
-                        <p lang="sv" class="d-none">Datum</p>
-                    </th>
-                    <th>
-                        <p lang="en">Education 2</p>
-                        <p lang="sv" class="d-none">Utbildning 2</p>
-                    </th>
-                    <tr class="d-none">
-                            <td>
-                                
-                            </td>
-                            <td>
-                                <p lang="en">Description</p>
-                                <p lang="sv" class="d-none">Beskrvining</p>
-                            </td>
-                        </tr>   
-                </tr>
-            </table>
-        </div>
-
-        <div id="experience" class="border-bottom">
+        <div id="personSkillsetRow1">
+            <div id="education" class="skillsetDiv border-bottom">
                 <div class="tableHeader">
-                        <button class="viewBtn" lang="en">view</button>
-                        <button class="viewBtn d-none" lang="sv">visa</button>
-                        <h3 lang="en">Experience</h3>
-                        <h3 lang="sv" class="d-none">Erfarenhet</h3>
-                    </div>
-                <table>
-                        <tr class="d-none">
-                            <th>
-                                <p lang="en">2019 - 2019</p>
-                                <p lang="sv" class="d-none">2019 - 2019</p>
-                            </th>
-                            <th>
-                                <p lang="en">Company 1</p>
-                                <p lang="sv" class="d-none">Företag 1</p>
-                            </th>
-                        </tr>
-                        <tr class="d-none">
-                            <td>
-                                
-                            </td>
-                            <td>
-                                <p lang="en">Description</p>
-                                <p lang="sv" class="d-none">Beskrivning</p>
-                            </td>
-                        </tr>                        
-                        <tr class="d-none">
-                            <th>
-                                <p lang="en">Date</p>
-                                <p lang="sv" class="d-none">Datum</p>
-                            </th>
-                            <th>
-                                <p lang="en">Company 2</p>
-                                <p lang="sv" class="d-none">Företag 2</p>
-                            </th>
-                        </tr>
-                        <tr class="d-none">
-                                <td>
-                                    
-                                </td>
-                                <td>
-                                    <p lang="en">Description</p>
-                                    <p lang="sv" class="d-none">Beskrivning</p>
-                                </td>
-                            </tr>   
-                    </table>
-        </div>
-
-        <div id="skills" class="border-bottom">
-                <div class="tableHeader">
-                        <button class="viewBtn" lang="en">view</button>
-                        <button class="viewBtn d-none" lang="sv">visa</button>
-                        <h3 lang="en">Skills</h3>
-                        <h3 lang="sv" class="d-none">Färdigheter</h3>
-                    </div>
-            <table>
-                <tr class="d-none">
-                    <td>
-                        <p lang="en">Skill 1</p>
-                        <p lang="sv" class="d-none">Färdighet 1</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="personality" class="border-bottom">
-                <div class="tableHeader">
-                        <button class="viewBtn" lang="en">view</button>
-                        <button class="viewBtn d-none" lang="sv">visa</button>
-                        <h3 lang="en">Personality</h3>
-                        <h3 lang="sv" class="d-none">Personlighet</h3>
-                    </div>
-            <table>
-                <tr class="d-none">
-                    <td>
-                        <p lang="en">Trait 1</p>
-                        <p lang="sv" class="d-none">Drag 1</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="softwareSkills" class="border-bottom">
-                <div class="tableHeader">
-                        <button class="viewBtn" lang="en">view</button>
-                        <button class="viewBtn d-none" lang="sv">visa</button>
-                        <h3 lang="en">Software skills</h3>
-                        <h3 lang="sv" class="d-none">Kunskap i programm</h3>
-                    </div>
-            <table>
-                <tr class="d-none">
-                    <td>
-                        <p lang="en">Skill 1</p>
-                        <p lang="sv" class="d-none">Färdighet 1</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    
-
-    <div id="languages" class="border-bottom">
-            <div class="tableHeader">
                     <button class="viewBtn" lang="en">view</button>
                     <button class="viewBtn d-none" lang="sv">visa</button>
-                    <h3 lang="en">Languages</h3>
-                    <h3 lang="sv" class="d-none">Språk</h3>
+                    <h3 lang="en">Education</h3>
+                    <h3 lang="sv" class="d-none">Utbildning</h3>
                 </div>
-            <table>
-                <tr class="d-none">
-                    <td>
-                        <p lang="en">Trait 1</p>
-                        <p lang="sv" class="d-none">Språk 1</p>
-                    </td>
-                </tr>
-            </table>
+                <table>
+
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2010 - 2013</p>
+                            <p lang="sv" class="d-none">2010 - 2013</p>
+                        </th>
+                        <th>
+                            <p lang="en">Hantverksgymnasiet</p>
+                            <p lang="sv" class="d-none">Hantverksgymnasiet</p>
+                        </th>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Studied hantverksprogrammet specializing in carpenting.</p>
+                            <p lang="sv" class="d-none">Läste hantverksprogrammet med inriktning möbelsnickeri.</p>
+                        </td>
+                    </tr>
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2013</p>
+                            <p lang="sv" class="d-none">2013</p>
+                        </th>
+                        <th>
+                            <p lang="en">Nordström Consulting</p>
+                            <p lang="sv" class="d-none">Nordström Consulting</p>
+                        </th>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Forklift license A1-4, B1-3</p>
+                            <p lang="sv" class="d-none">Truckkort A1-4, B1-3</p>
+                        </td>
+                    </tr>
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2019 - ongoing</p>
+                            <p lang="sv" class="d-none">2019 - pågående</p>
+                        </th>
+                        <th>
+                            <p lang="en">Nackademin</p>
+                            <p lang="sv" class="d-none">Nackademin</p>
+                        </th>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Studying to become a fullstack developer through Nackademin's Fullstack Open
+                                Source program, currently in my first year. I am also a class representative which adds upon my studies that I attends board meetings and helping my classmates succeed with their own studies.</p>
+                            <p lang="sv" class="d-none">Studerar för tillfället till att bli en fullstack utvecklare
+                                genom Nackademins utbildning Fullstack Open Source, och är för närvarande i mitt första
+                                år av utbildningen. Jag är även klassrepresentat vilket utöver mina egna studier innebär att jag är med på ledningsgruppsmöten samt hjälper mina klasskamrater att lyckas med sina egna studier.</p>
+                        </td>
+                    </tr>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="experience" class="skillsetDiv border-bottom">
+                <div class="tableHeader">
+                    <button class="viewBtn" lang="en">view</button>
+                    <button class="viewBtn d-none" lang="sv">visa</button>
+                    <h3 lang="en">Experience</h3>
+                    <h3 lang="sv" class="d-none">Erfarenhet</h3>
+                </div>
+                <table>
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2012</p>
+                            <p lang="sv" class="d-none">2012</p>
+                        </th>
+                        <th>
+                            <p lang="en">Svenska Posten</p>
+                            <p lang="sv" class="d-none">Svenska Posten</p>
+                        </th>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Sorting letters and other postage items.</p>
+                            <p lang="sv" class="d-none">Grovsortering av post.</p>
+                        </td>
+                    </tr>
+
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2012</p>
+                            <p lang="sv" class="d-none">2012</p>
+                        </th>
+                        <th>
+                            <p lang="en">Hydroscand</p>
+                            <p lang="sv" class="d-none">Hydroscand</p>
+                        </th>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Worked with inventory management of a wide range of industrial tubes, hoses and
+                                attachements at a storage facility.</p>
+                            <p lang="sv" class="d-none">Arbetade på lager med plock av både tunga slangar och mindre
+                                slangfästen.</p>
+                        </td>
+                    </tr>
+
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2013 - 2014</p>
+                            <p lang="sv" class="d-none">2013 - 2014</p>
+                        </th>
+                        <th>
+                            <p lang="en">PAS card AB</p>
+                            <p lang="sv" class="d-none">PAS card AB</p>
+                        </th>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Worked at a storage facility handling inventory as well as with coding, washing
+                                and printing ID-cards.</p>
+                            <p lang="sv" class="d-none">Arbetade både på lager med inventering och på produktion med att
+                                printa/tvätta/koda ID-kort. </p>
+                        </td>
+                    </tr>
+
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2014 - 2016</p>
+                            <p lang="sv" class="d-none">2014 - 2016</p>
+                        </th>
+                        <th>
+                            <p lang="en">Teleperformance AB</p>
+                            <p lang="sv" class="d-none">Teleperformance AB</p>
+                        </th>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Customer support handling calls, emails and also supporting customers through
+                                chat for one of Sweden's biggest payment providers.</p>
+                            <p lang="sv" class="d-none">Kundsupport via chatt, telefon och mejl avseende en av Sveriges
+                                största faktureringsbolag.</p>
+                        </td>
+                    </tr>
+
+                    <tr class="d-none">
+                        <th>
+                            <p lang="en">2016 - 2019</p>
+                            <p lang="sv" class="d-none">2016 - 2019</p>
+                        </th>
+                        <th>
+                            <p lang="en">Mathem i Sverige AB</p>
+                            <p lang="sv" class="d-none">Mathem i Sverige AB</p>
+                        </th>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+
+                        </td>
+                        <td>
+                            <p lang="en">Worked with packing customer orders and inventory management. Also worked as a
+                                supervisor for
+                                over a year, supervising a workforce of 40-100 people each day and in general steering
+                                the workflow as well
+                                as tutoring new hires.
+                            </p>
+                            <p lang="sv" class="d-none">Orderplock utav matvaror till privat- och företagskunder samt
+                                inventering. E-handel.
+                                Har även arbetat som arbetsledare på denna arbetsplats i över ett år
+                                varav uppgifter bestått av kontroll utav arbetsflöde med en daglig
+                                omsättning av 40-100 aktiva arbetare ute i produktion, samt hand-
+                                ledning och utbildning utav nyanställda.
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div id="skills" class="skillsetDiv border-bottom">
+                <div class="tableHeader">
+                    <button class="viewBtn" lang="en">view</button>
+                    <button class="viewBtn d-none" lang="sv">visa</button>
+                    <h3 lang="en">Skills</h3>
+                    <h3 lang="sv" class="d-none">Färdigheter</h3>
+                </div>
+                <table>
+                    <tr class="d-none">
+                        <td>
+                            <h5 lang="en">Javascript</h5>
+                            <h5 lang="sv" class="d-none">Javascript</h5>
+                        </td>
+                    </tr>
+                    <tr class="d-none">
+                        <td>
+                            <h5 lang="en">C#</h5>
+                            <h5 lang="sv" class="d-none">C#</h5>
+                        </td>
+                    </tr>
+                    <tr class="d-none">
+                            <td>
+                                <h5 lang="en">Good leading skills</h5>
+                                <h5 lang="sv" class="d-none">Bra ledningsförmåga</h5>
+                            </td>
+                        </tr>
+                </table>
+            </div>
         </div>
+        <div id="personSkillsetRow2">
+
+            <div id="personality" class="skillsetDiv border-bottom">
+                <div class="tableHeader">
+                    <button class="viewBtn" lang="en">view</button>
+                    <button class="viewBtn d-none" lang="sv">visa</button>
+                    <h3 lang="en">Personality</h3>
+                    <h3 lang="sv" class="d-none">Personlighet</h3>
+                </div>
+                <table>
+                    <tr class="d-none">
+                        <td>
+                            <p lang="en">I consider myself a friendly guy who always tries to lighten up the mood when everyone feels down.
+                                My work is something I take very seriously, and I always look for new ways to get better and more efficient at what I do.
+                                I like playing PC games and taking walks with my dog through the forest as well as a lot of programming on my spare time, as it is
+                                one of my currently biggest interrests.
+
+                            </p>
+                            <p lang="sv" class="d-none">Javascript</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="softwareSkills" class="skillsetDiv border-bottom">
+                <div class="tableHeader">
+                    <button class="viewBtn" lang="en">view</button>
+                    <button class="viewBtn d-none" lang="sv">visa</button>
+                    <h3 lang="en">Software skills</h3>
+                    <h3 lang="sv" class="d-none">Kunskap i programm</h3>
+                </div>
+                <table>
+                    <tr class="d-none">
+                        <td>
+                            <h5 lang="en">The entire Office package</h5>
+                            <h5 lang="sv" class="d-none">Hela Officepaketet</h5>
+                        </td>
+                    </tr>
+                    <tr class="d-none">
+                            <td>
+                                <h5 lang="en">Very proficient at using command prompts</h5>
+                                <h5 lang="sv" class="d-none">Väldigt bra på att använda kommandoprompter</h5>
+                            </td>
+                        </tr>
+                </table>
+            </div>
+
+
+            <div id="languages" class="skillsetDiv border-bottom">
+                <div class="tableHeader">
+                    <button class="viewBtn" lang="en">view</button>
+                    <button class="viewBtn d-none" lang="sv">visa</button>
+                    <h3 lang="en">Spoken languages</h3>
+                    <h3 lang="sv" class="d-none">Talade språk</h3>
+                </div>
+                <table>
+                    <tr class="d-none">
+                        <td>
+                            <h5 lang="en">Swedish</h5>
+                            <h5 lang="sv" class="d-none">Svenska</h5>
+                        </td>
+                    </tr>
+
+                    <tr class="d-none">
+                        <td>
+                            <h5 lang="en">English</h5>
+                            <h5 lang="sv" class="d-none">Engelska</h5>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
     </div>
 
     <div id="projects">
 
         <div id="project1" class="project">
-            <div class="card">
+            <div class="card border-primary">
                 <div class="row no-gutters">
-                        <div class="col-md-4 rounded border border-dark">
-                        <img src="/project/img/crm.PNG" class="card-img" alt="project image">
+                    <div class="col-md-4 rounded border border-primary">
+                        <img src="/project/img/crm.PNG" class="card-img projImg" alt="project image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title" lang="en">CRM-system</h5>
-                            <h5 class="card-title" lang="sv" class="d-none">CRM-system</h5>
-                            <a href="https://github.com/xavizus/assignment-1-for-javascript2/tree/master" class="card-title" lang="en">Link to Github</a>
-                            <a href="https://github.com/xavizus/assignment-1-for-javascript2/tree/master" class="card-title" lang="sv" class="d-none">Länk till Github</a>
-                            <p class="card-text" lang="en">This was a school project where me and my group built a CRM-system following a basic scrum-routine.
-                                My card in the project was making a reminder function which alerted the user when the date picked for the reminder
+                            <h5 class="card-title d-none" lang="sv">CRM-system</h5>
+                            <a href="https://github.com/xavizus/assignment-1-for-javascript2/tree/master"
+                                class="card-title" lang="en">Link to project</a>
+                            <a href="https://github.com/xavizus/assignment-1-for-javascript2/tree/master"
+                                class="card-title d-none" lang="sv">Länk till projekt</a>
+                            <p class="card-text" lang="en">This was a school project where me and my group built a
+                                CRM-system following a basic scrum-routine.
+                                My card in the project was making a reminder function which alerted the user when the
+                                date picked for the reminder
                                 matched the current date, using a mock up API for data storage.
                             </p>
-                            <p class="card-text" lang="sv" class="d-none">Det här var ett skolprojekt där min grupp byggde ett CRM-system, samtidigt som vi följde scrum-metoden.
-                                Mitt kort i projektet avsåg en påminnelse-funktion som påminde användaren när det satta datumet matchade dagens datum och använde sig av ett mock up API.
-                                </p>
+                            <p class="card-text d-none" lang="sv">Det här var ett skolprojekt där min grupp byggde ett
+                                CRM-system, samtidigt som vi följde scrum-metoden.
+                                Mitt kort i projektet avsåg en påminnelse-funktion som påminde användaren när det satta
+                                datumet matchade dagens datum och använde sig av ett mock up API.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -235,22 +397,27 @@
         </div>
 
         <div id="project2" class="project">
-            <div class="card">
+            <div class="card border-primary">
                 <div class="row no-gutters">
-                        <div class="col-md-4 rounded border border-dark">
-                        <img src="/project/img/quiz.PNG" class="card-img" alt="project image">
+                    <div class="col-md-4 rounded border border-primary">
+                        <img src="/project/img/quiz.PNG" class="card-img projImg" alt="project image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title" lang="en">Quiz</h5>
-                            <h5 class="card-title" lang="sv" class="d-none">Quiz</h5>
-                            <a href="https://github.com/Robin-Neuman/uppgift-js-1" class="card-title" lang="en">Link to Github</a>
-                            <a href="https://github.com/Robin-Neuman/uppgift-js-1" class="card-title" lang="sv" class="d-none">Länk till Github</a>
-                            <p class="card-text" lang="en">Simple quiz made for my first course in javascript. I made use of JSON files as well as functions
-                                allowing the player to choose different options which could all be correct as well as incorrect, giving corresponding points to the answer.                                
+                            <h5 class="card-title d-none" lang="sv">Quiz</h5>
+                            <a href="https://github.com/Robin-Neuman/uppgift-js-1" class="card-title" lang="en">Link to
+                                project</a>
+                            <a href="https://github.com/Robin-Neuman/uppgift-js-1" class="card-title d-none"
+                                lang="sv">Länk till projekt</a>
+                            <p class="card-text" lang="en">Simple quiz made for my first course in javascript. I made
+                                use of JSON files as well as functions
+                                allowing the player to choose different options which could all be correct as well as
+                                incorrect, giving corresponding points to the answer.
                             </p>
-                            <p class="card-text" lang="sv" class="d-none">Ett simpelt quiz som använder sig av JSON samt poängsätter spelaren efter potentiellt flera korrekta svar.                               
-                                </p>
+                            <p class="card-text d-none" lang="sv">Ett simpelt quiz som använder sig av JSON samt
+                                poängsätter spelaren efter potentiellt flera korrekta svar.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -258,22 +425,26 @@
         </div>
 
         <div id="project3" class="project">
-            <div class="card">
+            <div class="card border-primary">
                 <div class="row no-gutters">
-                        <div class="col-md-4 rounded border border-dark">
-                        <img src="/project/img/sandraWebsite.PNG" class="card-img" alt="project image">
+                    <div class="col-md-4 rounded border border-primary">
+                        <img src="/project/img/sandraWebsite.PNG" class="card-img projImg" alt="project image">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
                             <h5 class="card-title" lang="en">Basic website</h5>
-                            <h5 class="card-title" lang="sv" class="d-none">Standard hemsida</h5>
-                            <a href="https://github.com/Robin-Neuman/Sandra-Website" class="card-title" lang="en">Link to Github</a>
-                            <p class="card-text" lang="en">Very basic website made for my girlfriend's fanfiction. Work is still in progress with
-                                future plans for a forum, a page for upploading content and an admin system allowing upploading of new chapters.
+                            <h5 class="card-title d-none" lang="sv">Standard hemsida</h5>
+                            <a href="https://github.com/Robin-Neuman/Sandra-Website" class="card-title" lang="en">Link
+                                to project</a>
+                            <p class="card-text" lang="en">Very basic website made for my girlfriend's fanfiction. Work
+                                is still in progress with
+                                future plans for a forum, a page for upploading content and an admin system allowing
+                                upploading of new chapters.
                             </p>
-                            <p class="card-text" lang="sv" class="d-none">En simpel hemsida som jag gjorde för min flickväns fanfiction. Arbetar fortfarande på detta projekt och har planer för ett forum,
+                            <p class="card-text d-none" lang="sv">En simpel hemsida som jag gjorde för min flickväns
+                                fanfiction. Arbetar fortfarande på detta projekt och har planer för ett forum,
                                 en sida där man kan ladda upp filer samt ett admin system.
-                                </p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -281,6 +452,7 @@
         </div>
 
     </div>
+
 </body>
 
 </html>

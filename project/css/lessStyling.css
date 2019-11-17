@@ -1,21 +1,9 @@
 #language {
   margin-left: 10px;
-  margin-top: 10px;
 }
 #language h6 {
-  color: #3e6ec7;
-}
-#language #svenska {
-  color: black;
-  text-decoration: underline;
-}
-#language #english {
-  color: black;
-  text-decoration: underline;
-}
-#language #english:hover {
+  margin-top: 10px;
   color: white;
-  text-decoration: underline;
 }
 @media screen and (max-width: 1200px) {
   #sideImage {
