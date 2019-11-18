@@ -10583,39 +10583,47 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-@-webkit-keyframes opacityFromRight {
+@-webkit-keyframes makeOneCol {
   0% {
-    opacity: 0.9;
-  }
-  25% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.7;
-  }
-  75% {
-    opacity: 0.6;
+    -webkit-transform: translate(100%, 0%);
+            transform: translate(100%, 0%);
   }
   100% {
-    opacity: 0.5;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
   }
 }
 
-@keyframes opacityFromRight {
+@keyframes makeOneCol {
   0% {
-    opacity: 0.9;
-  }
-  25% {
-    opacity: 0.8;
-  }
-  50% {
-    opacity: 0.7;
-  }
-  75% {
-    opacity: 0.6;
+    -webkit-transform: translate(100%, 0%);
+            transform: translate(100%, 0%);
   }
   100% {
-    opacity: 0.5;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@-webkit-keyframes makeOneRow {
+  0% {
+    -webkit-transform: translate(-100%, 0%);
+            transform: translate(-100%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@keyframes makeOneRow {
+  0% {
+    -webkit-transform: translate(-100%, 0%);
+            transform: translate(-100%, 0%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
   }
 }
 
@@ -10722,6 +10730,8 @@ table th p, table td p {
 }
 
 #affectAll {
+  -webkit-animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft;
+          animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft;
   margin-top: 50px;
   margin-left: 30px;
   margin-bottom: -50px;
@@ -10752,7 +10762,6 @@ table th p, table td p {
 }
 
 #personSkillset {
-  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10771,6 +10780,8 @@ table th p, table td p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft;
+          animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft;
 }
 
 #personSkillset #personSkillsetRow2 {
@@ -10782,6 +10793,8 @@ table th p, table td p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-animation: 1s ease-out makeOneRow, 1s linear opacityFromLeft;
+          animation: 1s ease-out makeOneRow, 1s linear opacityFromLeft;
 }
 
 #header {
@@ -10827,8 +10840,8 @@ table th p, table td p {
   height: 10000px;
   width: 2500px;
   z-index: -1;
-  -webkit-animation: 0.5s ease-out 0s 1 slideInFromLeft, 0.5s linear 1 opacityFromLeft;
-          animation: 0.5s ease-out 0s 1 slideInFromLeft, 0.5s linear 1 opacityFromLeft;
+  -webkit-animation: 0.8s ease-out slideInFromLeft, 0.8s linear opacityFromLeft;
+          animation: 0.8s ease-out slideInFromLeft, 0.8s linear opacityFromLeft;
 }
 
 #projects {
@@ -10856,5 +10869,58 @@ table th p, table td p {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   margin-left: 150px;
+}
+
+#language {
+  margin-left: 10px;
+}
+
+#language h6 {
+  margin-top: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  #sideImage {
+    -webkit-animation: 0.5s ease-out 0s 1 slideInFromRight, 0.5s linear 1 opacityFromRight;
+            animation: 0.5s ease-out 0s 1 slideInFromRight, 0.5s linear 1 opacityFromRight;
+    left: 0px;
+    opacity: 0.4;
+  }
+  .profileImage {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-width: 200px;
+    padding-left: 5px;
+  }
+  #headerText {
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  #email {
+    margin-top: 30px;
+  }
+  #personSkillset {
+    margin-left: 0px;
+    display: unset;
+  }
+  #personSkillset #personSkillsetRow2 {
+    -webkit-animation: 1s ease-out makeOneCol, 1s linear opacityFromLeft;
+            animation: 1s ease-out makeOneCol, 1s linear opacityFromLeft;
+  }
+  #projects {
+    margin-left: 10px;
+  }
+  table {
+    margin-left: -80px;
+  }
 }
 /*# sourceMappingURL=sass.css.map */
