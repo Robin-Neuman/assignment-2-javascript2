@@ -10796,7 +10796,8 @@ table th p, table td p {
 
 .skillsetDiv {
   margin-right: 50px;
-  width: 500px;
+  width: 100%;
+  max-width: 100%;
 }
 
 #personSkillset {
@@ -10807,10 +10808,11 @@ table th p, table td p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  max-width: 80%;
 }
 
 #personSkillset #personSkillsetRow1 {
-  margin-left: 300px;
+  margin-left: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10823,7 +10825,7 @@ table th p, table td p {
 }
 
 #personSkillset #personSkillsetRow2 {
-  margin-left: 300px;
+  margin-left: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10874,7 +10876,7 @@ table th p, table td p {
   right: 0px;
   background-repeat: no-repeat;
   top: 0px;
-  left: 1300px;
+  left: 50%;
   height: 10000px;
   width: 2500px;
   z-index: -1;
@@ -10948,7 +10950,7 @@ table th p, table td p {
   }
   #personSkillset {
     display: unset;
-    font-size: 0.5em;
+    font-size: 0.6em;
   }
   #personSkillset #personSkillsetRow1 {
     margin-left: 100px;

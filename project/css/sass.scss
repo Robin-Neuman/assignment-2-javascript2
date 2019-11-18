@@ -139,20 +139,22 @@ table{
 }
 .skillsetDiv{
     margin-right: 50px;
-    width: 500px;
+    width: 100%;
+    max-width: 100%;
 }
 #personSkillset{
     display: flex;
     flex-direction: row;
+    max-width: 80%;
     
     #personSkillsetRow1{
-        margin-left: 300px;
+        margin-left: 150px;
         display: flex;
         flex-direction: column;   
         animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft; 
     }
     #personSkillsetRow2{
-        margin-left: 300px;
+        margin-left: 200px;
         display: flex;
         flex-direction: column;
         animation: 1s ease-out makeOneRow, 1s linear opacityFromLeft;
@@ -187,7 +189,7 @@ table{
     right: 0px;
     background-repeat: no-repeat;
     top: 0px;
-    left: 1300px;
+    left: 50%;
     height: 10000px;
     width: 2500px;
     z-index: -1;
