@@ -61,13 +61,31 @@ $border: #768BA5;
     }
 }
 
+@keyframes opacityFromRight {
+    0% {
+        opacity: 0.3;
+    }
+    25%{
+        opacity: 0.35;
+    }
+    50%{
+        opacity: 0.4;        
+    }
+    75%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 0.9;        
+    }
+}
+
 @mixin btnColor {
     color: $white;
                 background-color: $deepblue;
                 border: 1px solid $border;
                 font-size: 1em;
                 margin-top: 10px;
-                margin-right: 30px;
+                margin-right: 10px;
                 border-radius: 4px;
 }
 @mixin btnColorHover {
@@ -105,9 +123,10 @@ table{
 }
 #affectAll{
     animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft;
-    margin-top: 50px;
+    display: flex;
+    margin-top: 30px;
     margin-left: 30px;
-    margin-bottom: -50px;
+    
     .allBtn{
         height: 2.5em;
         
@@ -231,11 +250,19 @@ table{
         
     }
     #personSkillset{
-        margin-left: 0px;
         display: unset;
-        #personSkillsetRow2{
-            animation: 1s ease-out makeOneCol, 1s linear opacityFromLeft;
+        font-size: 0.6em;
+        #personSkillsetRow1{
+            margin-left: 100px;
         }
+        #personSkillsetRow2{
+            margin-left: 100px;
+            animation: 1s ease-out makeOneCol, 1s linear opacityFromRight;
+        }
+    }
+    .skillsetDiv{
+        margin-right: 10px;
+        width: 100px;
     }
     #projects{
         margin-left: 10px;
