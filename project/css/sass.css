@@ -10723,10 +10723,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .tableHeader {
   margin-top: 50px;
+  margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: -80px;
 }
 
 .tableHeader .viewBtn {
@@ -10751,18 +10751,6 @@ a.text-dark:hover, a.text-dark:focus {
 .tableHeader h3 {
   color: #3e6ec7;
   margin-top: 10px;
-}
-
-table {
-  margin: 60px 0px 0px 0px;
-}
-
-table th, table td {
-  width: 500px;
-}
-
-table th p, table td p {
-  font-size: 1.3em;
 }
 
 #affectAll {
@@ -10795,8 +10783,7 @@ table th p, table td p {
 }
 
 .skillsetDiv {
-  margin-right: 50px;
-  width: 500px;
+  max-width: 80%;
 }
 
 #personSkillset {
@@ -10807,10 +10794,12 @@ table th p, table td p {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  max-width: 100%;
 }
 
 #personSkillset #personSkillsetRow1 {
-  margin-left: 300px;
+  width: 60%;
+  margin-left: 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10822,8 +10811,12 @@ table th p, table td p {
           animation: 1s ease-out slideInFromLeft, 1s linear opacityFromLeft;
 }
 
+#personSkillset #personSkillsetRow1 tr td {
+  width: 5%;
+}
+
 #personSkillset #personSkillsetRow2 {
-  margin-left: 300px;
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10874,7 +10867,7 @@ table th p, table td p {
   right: 0px;
   background-repeat: no-repeat;
   top: 0px;
-  left: 1300px;
+  left: 50%;
   height: 10000px;
   width: 2500px;
   z-index: -1;
@@ -10884,14 +10877,14 @@ table th p, table td p {
 
 #projects {
   margin-top: 150px;
-  margin-left: 350px;
+  margin-left: 10%;
+  margin-right: 40%;
 }
 
 #projects .project {
   margin-bottom: 50px;
   min-width: 300px;
   max-width: 1200px;
-  margin-right: 100px;
 }
 
 #projects .project .projImg {
@@ -10957,17 +10950,21 @@ table th p, table td p {
   }
   #personSkillset {
     display: unset;
+    font-size: 1em;
   }
   #personSkillset #personSkillsetRow1 {
     margin-left: 100px;
+    font-size: 1em;
   }
   #personSkillset #personSkillsetRow2 {
     margin-left: 100px;
+    font-size: 1em;
     -webkit-animation: 1s ease-out makeOneCol, 1s linear opacityFromRight;
             animation: 1s ease-out makeOneCol, 1s linear opacityFromRight;
   }
   .skillsetDiv {
-    width: 100%;
+    margin-right: 10px;
+    width: 80%;
   }
   #projects {
     margin-left: 10px;
