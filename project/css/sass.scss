@@ -135,7 +135,7 @@ $border: #768BA5;
 #personSkillset{
     display: flex;
     flex-direction: row;
-    max-width: 100%;
+    max-width: 70%;
 
     
     
@@ -224,7 +224,7 @@ $border: #768BA5;
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 991px) {
     body{
         font-size: 0.8em;
         h1{
